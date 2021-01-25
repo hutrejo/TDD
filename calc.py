@@ -1,4 +1,4 @@
-import ipaddress
+timport ipaddress
 
  
 
@@ -24,17 +24,17 @@ def calculator(RED,MASK):
 
  
 
-calculator("10.0.0.0", "255.255.255.252")
+#calculator("10.0.0.0", "255.255.255.252")
 
- 
+ #### Fer added Fix
 
 ###########BUG FIX
 
-#try:
+try:
 
-#             calculator("dasada", "255..255.255.252")
+             calculator("dasada", "255..255.255.252")
 
-#except ipaddress.AddressValueError:
+except ipaddress.AddressValueError:
 
-#             print("datos incorrectos")
+             print("datos incorrectos")
 
