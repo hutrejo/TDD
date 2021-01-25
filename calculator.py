@@ -13,7 +13,7 @@ def calculator(RED,MASK):
 
 #calculator("10.0.0.0", "255.255.255.252")
 
-###########BUG FIX
+##########BUG FIX
 try:
 	calculator("10.0.0.0", "255.255.255.252")
 except ipaddress.AddressValueError:
